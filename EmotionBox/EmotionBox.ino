@@ -1,3 +1,11 @@
+/*
+The MIT License (MIT)
+Copyright (c) 2016 Alvaro Perez
+
+Arduino software for the EmotionBox to accompany the following how-to
+in Instructables website.
+*/
+
 #include <SoftwareSerial.h>
 SoftwareSerial SwSerial(2, 3); // RX, TX
 #define BLYNK_PRINT SwSerial
