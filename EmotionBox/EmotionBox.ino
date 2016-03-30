@@ -1,6 +1,10 @@
 /*
-The MIT License (MIT)
+EmotionBox
 Copyright (c) 2016 Alvaro Perez
+
+This code is under a GNU GENERAL PUBLIC LICENSE
+                     Version 3, 29 June 2007
+
 
 Arduino software for the EmotionBox to accompany the following how-to
 in Instructables website.
