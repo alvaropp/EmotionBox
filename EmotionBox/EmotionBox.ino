@@ -70,13 +70,8 @@ void checkButton1()
     time = millis();
   }
 
-  if (state_1 == HIGH) {
-    digitalWrite(led1, state_1);
-    Blynk.virtualWrite(V1, state_1);
-  } else {
-    digitalWrite(led1, state_1);
-    Blynk.virtualWrite(V1, state_1);
-  }
+  digitalWrite(led1, state_1);
+  Blynk.virtualWrite(V1, state_1);
 }
 
 void checkButton2()
@@ -91,13 +86,8 @@ void checkButton2()
     time = millis();
   }
 
-  if (state_2 == HIGH) {
-    digitalWrite(led2, state_2);
-    Blynk.virtualWrite(V2, state_2);
-  } else {
-    digitalWrite(led2, state_2);
-    Blynk.virtualWrite(V2, state_2);
-  }
+  digitalWrite(led2, state_2);
+  Blynk.virtualWrite(V2, state_2);
 }
 
 void checkButton3()
@@ -112,13 +102,8 @@ void checkButton3()
     time = millis();
   }
 
-  if (state_3 == HIGH) {
-    digitalWrite(led3, state_3);
-    Blynk.virtualWrite(V3, state_3);
-  } else {
-    digitalWrite(led3, state_3);
-    Blynk.virtualWrite(V3, state_3);
-  }
+  digitalWrite(led3, state_3);
+  Blynk.virtualWrite(V3, state_3);
 }
 
 void checkButton4()
@@ -133,13 +118,8 @@ void checkButton4()
     time = millis();
   }
 
-  if (state_4 == HIGH) {
-    digitalWrite(led4, state_4);
-    Blynk.virtualWrite(V4, state_4);
-  } else {
-    digitalWrite(led4, state_4);
-    Blynk.virtualWrite(V4, state_4);
-  }
+  digitalWrite(led4, state_4);
+  Blynk.virtualWrite(V4, state_4);
 }
 
 void checkButton5()
@@ -154,13 +134,8 @@ void checkButton5()
     time = millis();
   }
 
-  if (state_5 == HIGH) {
-    digitalWrite(led5, state_5);
-    Blynk.virtualWrite(V5, state_5);
-  } else {
-    digitalWrite(led5, state_5);
-    Blynk.virtualWrite(V5, state_5);
-  }
+  digitalWrite(led5, state_5);
+  Blynk.virtualWrite(V5, state_5);
 }
 
 // Functions to read the state of each buttons from
